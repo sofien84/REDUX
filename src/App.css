@@ -1,38 +1,32 @@
 .App {
   text-align: center;
+  font-family: "Comfortaa", cursive;
+  background-color: lightblue;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.App h1 {
+  margin-bottom: 4rem;
+  color: rgb(85, 34, 167);
+  text-shadow: 0 0 5px #173186;
+}
+.title {
+  color: rgb(109, 100, 126);
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  font-size: 50px;
+  padding-top: 20px;
+  color: rgb(107, 31, 184);
+  text-shadow: 0 0 5px #0e2d91;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.itemDeleteButton {
+  border-radius: 0 !important;
+  padding: 0.175rem 0.35rem !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checked {
+  text-decoration: line-through;
 }
